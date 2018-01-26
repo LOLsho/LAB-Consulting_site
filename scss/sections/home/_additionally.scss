@@ -1,0 +1,34 @@
+.additionally {
+	position: relative;
+	padding-top: 99px;
+	padding-bottom: 60px;
+}
+
+.additionally_list {
+	text-align: center;
+}
+
+.additionally__item {
+	width: 355px;
+}
+
+.additionally__img {
+	margin: 0 auto;
+}
+
+.additionally__title {
+	font-family: 'MuseoSansCyrl-100', sans-serif;
+	font-size: 24px;
+	margin-top: 4px;
+
+	span {
+		color: #b81c31;
+	}
+}
+
+.additionally__text {
+	color: #404048;
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 12px;
+}

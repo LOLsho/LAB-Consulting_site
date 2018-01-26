@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'MuseoSansCyrl-300', sans-serif;
+	font-weight: 700;
+	/*color: #081d42;*/
+	border-top: 4px solid #58647a;
+	border-bottom: 18px solid #58647a;
+}
+
+div, ul, li, p, form,
+button, b, a, input,
+textarea, img, section, header {
+	display: block;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	box-sizing: border-box;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.button {
+	height: 39px;
+	text-decoration: none;
+	background: #1cb883;
+	border-bottom: 4px solid #149d6f;
+	line-height: 35px;
+	font-size: 13px;
+	width: 156px;
+	color: white;
+
+	&:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+	&:active {
+		border-bottom: none;
+		height: 35px;
+	}
+}

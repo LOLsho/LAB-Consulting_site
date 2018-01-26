@@ -1,0 +1,60 @@
+.greeting {
+	padding-bottom: 134px;
+	border-bottom: 16px solid rgba(255,255,255,0.16);
+}
+
+.main-title {
+	margin-top: 90px;
+	width: 500px;
+}
+
+.main-title__title {
+	font-size: 58px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.main-title__text {
+	font-size: 29px;
+	color: #081d42;
+	font-family: 'MuseoSansCyrl-100', sans-serif;
+	margin-top: 10px;
+	padding-left: 2px;
+	line-height: 1.3em;
+}
+
+.socials {
+	margin-top: 15px;
+	background: rgba(255,255,255,0.55);
+	width: 166px;
+	height: 46px;
+	border-radius: 5px;
+	margin-left: 5px;
+	box-shadow: 0 0 15px rgba(255,255,255,1);
+	padding: 8px 18px;
+}
+
+.social_icon {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.fa-facebook {
+	@extend .social_icon;
+	border: 2px solid #2b5e9f;
+	color: #2b5e9f;
+}
+
+.fa-twitter {
+	@extend .social_icon;
+	border: 2px solid #43c9fd;
+	color: #43c9fd;
+}
+
+.fa-telegram {
+	@extend .social_icon;
+	border: 2px solid #34a9d7;
+	color: #34a9d7;
+}

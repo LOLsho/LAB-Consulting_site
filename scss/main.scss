@@ -1,0 +1,19 @@
+/*config*/
+
+@import "config/_variables.sccs";
+@import "config/_mixins.scss";
+
+
+/*base*/
+
+@import "layout/_base.scss";
+
+/*Sections*/
+
+@import "sections/home/_header.scss";
+@import "sections/home/_greeting.scss";
+@import "sections/home/_deserved.scss";
+@import "sections/home/_additionally.scss";
+@import "sections/home/_mission.scss";
+@import "sections/home/_referenses.scss";
+@import "sections/home/_footer.scss";

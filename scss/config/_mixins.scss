@@ -1,0 +1,12 @@
+@mixin left ($width_block, $width_elem) {
+	left: ($width_block/2)-($width_elem/2);
+}
+
+@function rem($px) {
+	@return $px / 16px+0rem;
+}
+
+// Тут потом надо будет сделать миксин кнопки и круга
+// @mixin left ($width_block, $width_elem) {
+// 	left: ($width_block/2)-($width_elem/2);
+// }
