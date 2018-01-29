@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: 'MuseoSansCyrl-300', sans-serif;
   font-weight: 700;
@@ -580,7 +584,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fafafb;
   color: #081d42;
   padding-top: 32px;
-  padding-bottom: 40px;
+  height: 145px;
 }
 
 .nav-line__title {
@@ -611,6 +615,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 17px;
 }
 
+.nav-about_serv {
+  margin-top: 6px;
+  width: 627px;
+  margin-left: -24px;
+}
+
 .nav-about__link {
   font-size: 15.83px;
   font-weight: 700;
@@ -626,6 +636,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #b81c31;
   border: 2px solid #b81c31;
   border-radius: 2px;
+}
+
+.nav-about__link_serv {
+  height: 66px;
+  padding-top: 13px;
+}
+
+.nav-about__title {
+  font-size: 15.83px;
+  line-height: 1em;
+}
+
+.nav-about__desc {
+  font-size: 12.92px;
+  line-height: 1em;
+  font-weight: 300;
+  margin-top: 7px;
 }
 
 .excellence {
@@ -726,4 +753,257 @@ h1, h2, h3, h4, h5, h6 {
 
 .photo__pointers {
   margin: auto;
+}
+
+.work-env {
+  padding-top: 40px;
+  color: white;
+  background: url("../img/bg/bg3.jpg") no-repeat center top/cover;
+}
+
+.work-env__img {
+  margin-top: 2px;
+}
+
+.work-env__wrap {
+  width: 328px;
+  margin-top: 22px;
+  margin-left: -48px;
+}
+
+.work-env__title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.11em;
+}
+
+.work-env__text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.35em;
+  margin-top: 12px;
+}
+
+.services {
+  border: 2px solid rgba(255, 255, 255, 0.48);
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-left: 29px;
+  padding-bottom: 20px;
+  width: 370px;
+}
+
+.services__item {
+  font-size: 12.5px;
+  margin-bottom: 11px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0px;
+}
+
+.services__link {
+  margin-left: 5px;
+  color: white;
+  font-size: 15.42px;
+  font-weight: 300;
+}
+
+.services__link:hover {
+  color: white;
+}
+
+.second-ctg {
+  color: #404048;
+}
+
+.content {
+  padding-top: 36px;
+}
+
+.content__title {
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.content__text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.3em;
+  margin-bottom: 16px;
+}
+
+.consultation {
+  border: 2px solid rgba(88, 95, 107, 0.17);
+  border-radius: 5px;
+  background: url("../img/pic/questions.png") no-repeat 95% 85%;
+  width: 468px;
+  height: 190px;
+  padding: 20px 30px;
+}
+
+.content__block {
+  margin-top: 35px;
+  margin-bottom: 56px;
+}
+
+.consultation__title {
+  color: #414449;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.consultation__button {
+  color: #b81c31;
+  border: 2px solid #b81c31;
+  border-radius: 2px;
+  font-size: 14px;
+  text-align: center;
+  padding: 9px 20px 0;
+  height: 42px;
+  width: 157px;
+}
+
+.consultation__button:hover {
+  color: #b81c31;
+  text-decoration: none;
+}
+
+.consultation__tel {
+  color: #585f6b;
+  font-size: 14px;
+  margin-left: 18px;
+  margin-top: 11px;
+}
+
+.consultation__text {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: #9b9ea5;
+  width: 225px;
+  margin-top: 7px;
+  line-height: 1.35em;
+}
+
+.side-bar {
+  width: 370px;
+  background: #fafafb;
+  height: 100%;
+}
+
+.side-bar h4 {
+  font-size: 17.92px;
+  font-weight: 700;
+  color: #bbbfc6;
+  padding-left: 28px;
+}
+
+.navigation {
+  padding-top: 50px;
+}
+
+.navigation__list {
+  margin-top: 42px;
+}
+
+.navigation__item {
+  border-top: 1px solid #dfdfe8;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  padding-left: 26px;
+}
+
+.navigation__item:last-child {
+  border-bottom: 1px solid #dfdfe8;
+}
+
+.navigation__square {
+  width: 11px;
+  height: 11px;
+  background: #aeaeb9;
+  border-radius: 1px;
+  margin-right: 18px;
+}
+
+.navigation__link {
+  font-size: 15.42px;
+  color: #747487;
+  width: 187px;
+  margin-top: -5px;
+}
+
+.navigation__link:hover {
+  color: #747487;
+  text-decoration: none;
+}
+
+.recall__title {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .header {
+    background: url("../img/bg/bg-header.jpg") no-repeat center top/cover;
+  }
+  .heading {
+    padding-bottom: 20px;
+  }
+  .logo-link {
+    margin: 0 auto;
+  }
+  .menu {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .coll {
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  .coll:active {
+    margin-top: 14px;
+  }
+  .features__text {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .additionally__text {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mission__text {
+    width: 350px;
+  }
+  .content {
+    margin-top: 0;
+  }
+  .news {
+    margin-top: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
 }

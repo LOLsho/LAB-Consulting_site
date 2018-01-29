@@ -6,6 +6,33 @@
 	@return $px / 16px+0rem;
 }
 
+@mixin desktop {
+	@media (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media (max-width: 992px) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin phone {
+	@media (max-width: 480px) {
+		@content;
+	}
+}
+
+
+
+
 // Тут потом надо будет сделать миксин кнопки и круга
 // @mixin left ($width_block, $width_elem) {
 // 	left: ($width_block/2)-($width_elem/2);

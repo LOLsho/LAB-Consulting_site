@@ -1,0 +1,58 @@
+.work-env {
+	padding-top: 40px;
+	color: white;
+	background: url('../img/bg/bg3.jpg') no-repeat center top / cover;
+}
+
+.work-env__img {
+	margin-top: 2px;
+}
+
+.work-env__wrap {
+	width: 328px;
+	margin-top: 22px;
+	margin-left: -48px;
+}
+
+.work-env__title {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.11em;
+}
+
+.work-env__text {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.35em;
+	margin-top: 12px;
+}
+
+.services {
+	border: 2px solid rgba(255,255,255,.48);
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-left: 29px;
+	padding-bottom: 20px;
+	width: 370px;
+}
+
+.services__item {
+	font-size: 12.5px;
+	margin-bottom: 11px;
+
+	&:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+.services__link {
+	margin-left: 5px;
+	color: white;
+	font-size: 15.42px;
+	font-weight: 300;
+
+	&:hover {
+		color: white;
+	}
+}
+

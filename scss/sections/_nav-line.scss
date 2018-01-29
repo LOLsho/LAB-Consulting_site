@@ -2,7 +2,7 @@
 	background: #fafafb;
 	color: #081d42;
 	padding-top: 32px;
-	padding-bottom: 40px;
+	height: 145px
 }
 
 .nav-line__title {
@@ -34,6 +34,12 @@
 	margin-top: 17px;
 }
 
+.nav-about_serv {
+	margin-top: 6px;
+	width: 627px;
+	margin-left: -24px;
+}
+
 .nav-about__item {
 	
 }
@@ -53,4 +59,22 @@
 		border: 2px solid #b81c31;
 		border-radius: 2px;
 	}
+}
+
+.nav-about__link_serv {
+	height: 66px;
+	padding-top: 13px;
+}
+
+.nav-about__title {
+	font-size: 15.83px;
+	line-height: 1em;
+
+}
+
+.nav-about__desc {
+	font-size: 12.92px;
+	line-height: 1em;
+	font-weight: 300;
+	margin-top: 7px;
 }
